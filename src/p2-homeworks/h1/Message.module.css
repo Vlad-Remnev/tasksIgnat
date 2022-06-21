@@ -1,0 +1,87 @@
+.message {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.altMessage {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.avatar {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.altAvatar {
+    width: 60px;
+    border-radius: 50%;
+    transform: scaleX(-1);
+    margin-left: 15px;
+}
+
+.messageInfo {
+    margin-left: 20px;
+    background-color: #282c34;
+    position: relative;
+    display: flex;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-width: 220px;
+    padding: 10px;
+    color: #fff;
+}
+
+.altMessageInfo {
+    margin-left: 20px;
+    background-color: #021d3f;
+    position: relative;
+    display: flex;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    max-width: 220px;
+    padding: 10px;
+    color: #fff;
+}
+
+.altMessageInfo::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(60px at top right, transparent 49%, #021d3f 51%) no-repeat right bottom;
+}
+
+.messageInfo::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(60px at top left, transparent 49%, #282c34 51%) no-repeat right bottom;
+}
+
+.name {
+    color: #f9a7f9;
+    opacity: 0.5;
+}
+
+.info {
+    align-self: center;
+}
+
+.time {
+    align-self: flex-end;
+    padding-left: 20px;
+    margin-top: 30px;
+}
