@@ -17,7 +17,7 @@ const altMessageData = {
     time: '22:34',
 }
 
-function HW1() {
+const  HW1 = () => {
     return (
         <div>
             <hr/>

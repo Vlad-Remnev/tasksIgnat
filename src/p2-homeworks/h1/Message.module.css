@@ -4,6 +4,12 @@
     align-items: center;
 }
 
+.back {
+    display: flex;
+    background-color: greenyellow;
+    padding: 5px;
+}
+
 .altMessage {
     display: flex;
     justify-content: flex-start;
@@ -28,9 +34,9 @@
     background-color: #282c34;
     position: relative;
     display: flex;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     max-width: 220px;
     padding: 10px;
     color: #fff;
@@ -41,9 +47,9 @@
     background-color: #021d3f;
     position: relative;
     display: flex;
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     max-width: 220px;
     padding: 10px;
     color: #fff;
