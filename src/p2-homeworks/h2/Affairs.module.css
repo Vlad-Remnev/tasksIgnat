@@ -1,3 +1,43 @@
 .someClass {
+    text-align: left;
+}
 
+.affairs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btns {
+    padding: 10px 5px;
+    margin: 0 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0582ff;
+}
+
+.btns:nth-child(1) {
+    background-color: greenyellow;
+}
+
+.btns:nth-child(2) {
+    background-color: darkred;
+}
+
+.btns:nth-child(3) {
+    background-color: lightcoral;
+}
+
+.btns:nth-child(4) {
+    background-color: lightblue;
+}
+
+.affair {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 5px 0;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
