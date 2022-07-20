@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Vlad-Remnev.github.io/tasksIgnat/static/css/main.3f003e1d.css",
+    "main.js": "/Vlad-Remnev.github.io/tasksIgnat/static/js/main.778ba55a.js",
+    "index.html": "/Vlad-Remnev.github.io/tasksIgnat/index.html",
+    "main.3f003e1d.css.map": "/Vlad-Remnev.github.io/tasksIgnat/static/css/main.3f003e1d.css.map",
+    "main.778ba55a.js.map": "/Vlad-Remnev.github.io/tasksIgnat/static/js/main.778ba55a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f003e1d.css",
+    "static/js/main.778ba55a.js"
+  ]
+}
