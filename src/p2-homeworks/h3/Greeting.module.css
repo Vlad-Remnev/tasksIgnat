@@ -1,7 +1,46 @@
-.someClass {
+.container {
 
+}
+
+.good,
+.error {
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.good {
+    border: 1px solid green;
 }
 
 .error {
     border: 1px solid red;
+}
+
+.btnAdd {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: lightblue;
+    border: 1px solid grey;
+    color: white;
+    border-radius: 5px;
+}
+
+.counter,
+.notif {
+    display: block;
+}
+
+.notif {
+    font-weight: bold;
+    color: darkred;
+    font-size: 18px;
+}
+
+.counter {
+    font-weight: bold;
+    color: green;
+    font-size: 18px;
 }

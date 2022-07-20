@@ -1,0 +1,44 @@
+.overlap {
+    position: relative;
+    height: 50px;
+    font-weight: bold;
+}
+
+.hiddenMenu {
+    position: absolute;
+    top: 30%;
+    left: -300px;
+    transition: 1s;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.btnMenu {
+    position: absolute;
+    top: 30%;
+    left: 10px;
+    transition: 1s;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.hiddenMenuTicker {
+    display: none;
+}
+
+.hiddenMenuTicker:checked ~ .btnMenu {
+    left: 300px;
+}
+.hiddenMenuTicker:checked ~ .hiddenMenu {
+    left: 0;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+}
+.link:hover {
+    color: lime;
+}
