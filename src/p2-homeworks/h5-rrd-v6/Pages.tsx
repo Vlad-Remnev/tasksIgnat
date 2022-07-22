@@ -9,7 +9,6 @@ export const PATH = {
     PRE_JUNIOR: '/pre-junior',
     JUNIOR: '/junior',
     JUNIOR_PLUS : '/juniorExtra'
-    // add paths
 }
 
 function Pages() {
