@@ -1,0 +1,14 @@
+.flexible {
+    display: flex;
+    justify-content: space-between;
+    max-width: 150px;
+    outline: 1px solid orange;
+}
+
+.btnBox {
+    display: flex;
+}
+
+.btnBox div {
+    margin-right: 5px;
+}
