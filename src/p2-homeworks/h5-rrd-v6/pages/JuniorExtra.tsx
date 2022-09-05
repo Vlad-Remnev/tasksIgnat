@@ -1,9 +1,10 @@
 import React from 'react';
+import HW11 from "../../h11/HW11";
 
 export const JuniorExtra = () => {
     return (
         <div>
-            Soon there will be EVEN MORE tasks))
+            <HW11 />
         </div>
     );
 };
