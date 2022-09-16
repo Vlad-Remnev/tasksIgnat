@@ -42,3 +42,10 @@
 .link:hover {
     color: lime;
 }
+
+.active {
+    color: lime;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+}
